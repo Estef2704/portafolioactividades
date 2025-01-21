@@ -1,0 +1,75 @@
+.carousel-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .carousel h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .carousel-slide input {
+    display: none;
+  }
+  
+  .carousel-images {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-item {
+    display: flex;
+    transition: transform 1s ease;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .carousel-navigation {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .carousel-nav {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #slide1:checked ~ .carousel-slide .carousel-images {
+    transform: translateX(0);
+  }
+  
+  #slide2:checked ~ .carousel-slide .carousel-images {
+    transform: translateX(-100%);
+  }
+  
+  #slide3:checked ~ .carousel-slide .carousel-images {
+    transform: translateX(-200%);
+  }
+  
+  #slide1:checked ~ .carousel-navigation label:nth-child(1),
+  #slide2:checked ~ .carousel-navigation label:nth-child(2),
+  #slide3:checked ~ .carousel-navigation label:nth-child(3) {
+    background-color: white;
+  }

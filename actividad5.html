@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad 4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css"> 
+
+</head>
+<body>
+
+  <header>
+    <h1>Portafolio</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link"  href="actividad1.html">Actividad 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="actividad2a.html">Actividad 2 Fase A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="actividad2b.html">Actividad 2 Fase B</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Actividad 3
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="actividad3.html">Mis Hobbies</a></li>
+                <li><a class="dropdown-item" href="hobbie3.html">La historia de la banda</a></li>
+                <li><a class="dropdown-item" href="hobbie2.html">Mi banda Favorita</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="actividad5.html">Actividad 5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="examen.html">Examen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="actividad6.html">Actividad 6</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<main>
+  <link rel="stylesheet" href="css/columnas.css">
+  <div class="container my-5">
+    <h2 class="text-center">Tres Columnas Iguales</h2>
+    <div class="row">
+      <div class="col-4 col-md-4 col-lg-4 col-box col-color-1">
+        <p>Columna 1</p>
+      </div>
+      <div class="col-4 col-md-4 col-lg-4 col-box col-color-2">
+        <p>Columna 2</p>
+      </div>
+      <div class="col-4 col-md-4 col-lg-4 col-box col-color-3">
+        <p>Columna 3</p>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="container my-5">
+    <h2 class="text-center">Columnas Diferentes (8 y 4)</h2>
+    <div class="row">
+      <div class="col-12 col-md-8 col-box col-color-4">
+        <p>Columna de 8</p>
+      </div>
+      <div class="col-12 col-md-4 col-box col-color-5">
+        <p>Columna de 4</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5">
+    <h2 class="text-center">Columnas Diferentes (8 y 4) con Anidadas</h2>
+    <div class="row">
+      <div class="col-12 col-md-8 col-box col-color-1">
+        <p>Columna 8</p>
+
+        <div class="row">
+          <div class="col-6 col-md-6 col-lg-6 col-box col-color-2">
+            <p>Anidada 1</p>
+          </div>
+          <div class="col-6 col-md-6 col-lg-6 col-box col-color-3">
+            <p>Anidada 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-box col-color-4">
+        <p>Columna 4</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5">
+    <h2 class="text-center">Mezcla de Columnas (sm, md, lg)</h2>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-box col-color-1">
+        <p>Columna 1</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-box col-color-2">
+        <p>Columna 2</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-box col-color-3">
+        <p>Columna 3</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-box col-color-4">
+        <p>Columna 4</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <h2 class="text-center">Mezcla de Columnas (sm, lg)</h2>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4 col-box col-color-2">
+        <p>Columna 1</p>
+      </div>
+      <div class="col-12 col-lg-6 col-lg-4 col-box col-color-3">
+        <p>Columna 2</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-box col-color-4">
+        <p>Columna 3</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</main>
+</body>
+</html>
